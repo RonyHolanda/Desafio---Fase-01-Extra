@@ -1,0 +1,97 @@
+body {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#page {
+  width: 540px;
+  margin: 0 auto 64px;
+}
+
+img {
+  margin: 64px 0 32px 0;
+}
+
+h1 {
+  color: #3F3D56;
+  text-align: center;
+  font-family: Dosis;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h1 span {
+  color: #EE24FF;
+  font-weight: 700;
+}
+
+p {
+  color: #828282;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+p span, a {
+  color: #3F3D56;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.flutuar {
+  color: #828282;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+footer {
+  height: 160px;
+  background: url(./images/Wave.png) no-repeat center bottom;
+  text-align: center;
+}
+
+.line {
+  width: 391px;
+  height: 0px;
+  margin: 0 auto 16px;
+  border: 1px solid #ECEFF2;
+}
+
+footer ul {
+  display: flex;
+  margin: 0 auto;
+  width: 391px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer ul li {
+  display: block;
+ }
+
+footer ul li a {
+  text-decoration: none;
+  color: #3F3D56;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.682%;
+}
+
+footer a + a + a {
+  margin: 0 42px 0 0;
+}
